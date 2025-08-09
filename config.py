@@ -1,4 +1,3 @@
-# config.py
 MODEL_REGISTRY = {
     # ── Meta ───────────────────────────────
     "llama3-8b":        "meta-llama/Meta-Llama-3-8B-Instruct",
@@ -69,12 +68,10 @@ MODEL_REGISTRY = {
     "gpt-j-6b":         "EleutherAI/gpt-j-6B",
     "gpt-neox-20b":     "EleutherAI/gpt-neox-20b",
 
-    # ── GPT2 (baseline) ────────────────────
+    # ── GPT2 ───────────────────────────────
     "gpt2":             "gpt2",
 
     # ── OpenAI API ─────────────────────────
-    "gpt-4":            "gpt-4",
-    "gpt-4o":           "gpt-4o",
     "gpt-5":            "gpt-5",
 }
 
