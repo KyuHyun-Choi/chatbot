@@ -1,0 +1,4 @@
+transformers==4.47.1
+huggingface_hub
+openai
+accelerate
