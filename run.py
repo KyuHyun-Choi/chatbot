@@ -1,5 +1,5 @@
 from config import MODEL_REGISTRY, SYSTEM_PROMPT, GEN_KWARGS, DTYPE
-from convo import Conversation
+from conversation import Conversation
 from backends import LocalBackend, OpenAIBackend
 
 def main():
